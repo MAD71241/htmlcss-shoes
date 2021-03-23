@@ -1,48 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
 
-    <title>Shoes</title>
+    
+    <title>Shoe Shop</title>
 </head>
-
 <body>
-    <div class="shoe red" id="red">
-        <img src="./img/01.png" class="shoe_image" alt="">
+    <!-- primo div scarpe -->
+    <div class="content red" id="red">
+        <!-- bottoni per navigazione interna alla pagina -->
         <div class="buttons">
             <a href="#red" class="button">1</a>
             <a href="#green" class="button">2</a>
             <a href="#yellow" class="button">3</a>
         </div>
-
-        <h1 class="text_yellow">IL NOSTRO MODELLO DI PUNTA</h1>
+        <!-- /bottoni per navigazione interna alla pagina -->
+        
+        <!-- contenitore per centrare immagine e testo -->
+        <div class="center">
+            <!-- immagine prodotto -->
+            <img src="./img/01.png" alt="">
+            <!-- /immagine prodotto -->
+            <!-- descrizione prodotto -->
+            <h1 class="text_yellow">IL NOSTRO MODELLO DI PUNTA</h1>
+            <!-- /descrizione prodotto -->
+        </div>
+        <!-- contenitore per centrare immagine e testo -->
     </div>
+    <!-- /primo div scarpe -->
 
-    <div class="shoe green" id="green">
-        <img src="./img/02.png" class="shoe_image" alt="">
+    <!-- secondo div scarpe -->
+    <div class="content green" id="green">
         <div class="buttons">
             <a href="#red" class="button">1</a>
             <a href="#green" class="button">2</a>
             <a href="#yellow" class="button">3</a>
         </div>
-        <h1 class="text_yellow">IL NOSTRO MODELLO DI PUNTA</h1>
-    </div>
+        <div class="center">
+            <img src="./img/02.png" alt="">
+            <h1 class="text_yellow">IL NOSTRO MODELLO DI PUNTA</h1>
+        </div>
 
-    <div class="shoe yellow" id="yellow">
-        <img src="./img/03.png" class="shoe_image center" alt="">
+    </div>
+    <!-- /secondo div scarpe -->
+
+    <!-- terzo div scarpe -->
+    <div class="content yellow" id="yellow">
         <div class="buttons">
             <a href="#red" class="button">1</a>
             <a href="#green" class="button">2</a>
             <a href="#yellow" class="button">3</a>
         </div>
-        <h1 class="text_green">IL NOSTRO MODELLO DI PUNTA</h1>
+        <div class="center">
+            <img src="./img/03.png" alt="">
+            <h1 class="text_green">IL NOSTRO MODELLO DI PUNTA</h1>
+        </div>
+
     </div>
+    <!-- /terzo div scarpe -->
 </body>
-
 </html>
