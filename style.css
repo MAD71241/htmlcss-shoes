@@ -20,11 +20,13 @@
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
+    display: inline-block;
+    bottom: 0;
+    text-align: center;
  }
 
 .shoe_text {
-    position: relative;
     width: 40%;
     margin: auto;
 }
